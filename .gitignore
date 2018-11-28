@@ -23,3 +23,9 @@ install.sum
 last-change
 src/cmd/awk/y.output
 src/cmd/devdraw/latin1.h
+key
+key.pem
+mail/queue
+mail/box
+secstore
+mail/lib
