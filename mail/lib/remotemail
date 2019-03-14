@@ -9,6 +9,6 @@ switch($fd){
 case *.*
 	;
 case *
-	fd=YOURDOMAIN.DOM
+	fd=gmail.com
 }
-exec upas/smtp -h $fd $addr $sender $* 
+exec upas/smtp -a -h $fd tcp!smtp.gmail.com!587 $sender $*

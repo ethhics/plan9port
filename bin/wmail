@@ -6,6 +6,6 @@ x-|x-browser)
 	web "mailto:$1"
 	;;
 *)
-	9term $MAILER "$1"
+	rc -c "$MAILER $1"
 	;;
 esac
